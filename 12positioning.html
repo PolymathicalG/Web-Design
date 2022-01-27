@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Positioning</title>
+    
+    <style>
+        .bluebox
+        {
+            background-color: #3A5795;
+            color: white;
+            height: 100px;
+            width: auto;
+            position: fixed;
+            top: 30px;
+            left: 30px;
+      
+        }
+        
+        .yellowbox
+        {
+            background-color: rgb(222,224,85);
+            height:100px;
+            width: auto;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            z-index:2;
+        
+        }
+        
+        .greenbox
+        {
+            background-color: #31af37;
+            height: 100px;
+            width: auto;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        
+                
+        }
+        
+        .great
+        {
+            background-color:purple;
+        }
+    
+        
+    </style>
+</head>
+
+<body>
+<div class="bluebox">
+    <p>Flowers are <span class="great">great</span></p>
+</div>   
+    
+<div class="yellowbox">
+    <p>Sugarcanes</p>
+</div>
+    
+<div class="greenbox">
+    <p>Petals</p>
+</div> 
+    
+    
+    
+</body>    
+    
+</html>
